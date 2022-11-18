@@ -27,7 +27,7 @@ endif
 if &t_Co ==# 256 || has("gui_running")
   if &bg ==# "dark"
     " use pure white on pure black
-    hi Normal ctermfg=231 ctermbg=16 guifg=#ffffff guibg=#000000
+    hi Normal ctermfg=231 guifg=#ffffff guibg=#000000
     "hi Normal ctermfg=231 ctermbg=0 guifg=#ffffff guibg=#000000
     set background=dark
 
